@@ -1,0 +1,19 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.9d443a73-2646-4a19-968a-28da1d9064ea",
+      "was_cloned": false,
+      "merge": {
+        "skillManifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-Storyberries-default"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
