@@ -6,5 +6,5 @@
   "dependencies": {
     "jovo-framework": "<=1.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {}
 }
