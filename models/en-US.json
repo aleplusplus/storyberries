@@ -80,7 +80,9 @@
             "read me a story by {author} from {topic}",
             "story of {tag} by {author}",
             "show me stories for my {topic} son",
-            "show me stories for my {topic} daughter"
+            "show me stories for my {topic} daughter",
+            "read me a bedtime story",
+            "read my a {topic} for my {topic} daughter"
           ]
         }
       ],

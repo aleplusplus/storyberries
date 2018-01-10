@@ -1,98 +1,32 @@
+'use strict';
 
-// =================================================================================
-// App Configuration: Create Webhook + Enable Logging
-// =================================================================================
+var Alexa = require('alexa-sdk');
+var constants = require('./constants');
+var stateHandlers = require('./stateHandlers');
+var audioEventHandlers = require('./audioEventHandlers');
 
-const app = require('jovo-framework').Jovo;
-const webhook = require('jovo-framework').Webhook;
+exports.handler = function(event, context, callback){
+    var alexa = Alexa.handler(event, context);
+    alexa.appId = constants.appId;
+    alexa.dynamoDBTableName = constants.dynamoDBTableName;
+    alexa.registerHandlers(
+        stateHandlers.startModeIntentHandlers,
+        stateHandlers.playModeIntentHandlers,
+        stateHandlers.remoteControllerHandlers,
+        stateHandlers.resumeDecisionModeIntentHandlers,
+        audioEventHandlers
+    );
 
-const myIntentMap = {
-    'AMAZON.HelpIntent' : 'HelpIntent'
-};
+    if (constants.debug) {
+        console.log("\n" + "******************* REQUEST **********************");
+        console.log("\n" + JSON.stringify(event, null, 2));
+    }
 
-// Enable Logging for Quick Testing
-app.setConfig({
-    requestLogging: true,
-    responseLogging: true,
-    intentMap: myIntentMap
-});
-
-let audioPlayer;
-
-// Listen for post requests
-webhook.listen(3000, function() {
-    console.log('Example server listening on port 3000!');
-});
-
-webhook.post('/webhook', function(req, res) {
-    app.handleRequest(req, res, handlers);
-
-    // Get audioPlayer object with new request
-    audioPlayer = app.alexaSkill().audioPlayer();
-    app.execute();
-});
-
-// =================================================================================
-// App Logic: Get name parameter and say hello
-// =================================================================================
-
-const handlers = {
-
-    'LAUNCH': function() {
-        app.toIntent('PlayAudio');
-    },
-
-    'HelpIntent': function() {
-        app.toIntent('HelpIntent');
-    },
-
-    'Unhandled': function() {
-      app.tell("I'm sorry. I didn't quite grasp what you just said.");
-    },
-
-    'PlayAudio': function(topic, tag, date, author, sort, teller) {
-
-      let title = 'Card Title';
-      let content = 'Card Content';
-      let imageUrl = 'https://s3.amazonaws.com/jovocards/SampleImageCardSmall.png';
-
-      app.followUpState('AUDIOPLAYER');
-
-      // Start playing a file from the beginning
-      audioPlayer.play("https://s3.amazonaws.com/storyberries/Rosco-The-Rascal-%E2%80%93-December-Magic.mp3", "Rosco-The-Rascal", "REPLACE_ALL").showImageCard(title, content, imageUrl).tell('Play Audio');
-
-    },
-
-    'AUDIOPLAYER': {
-        'AudioPlayer.PlaybackStarted': function() {
-            console.log('AudioPlayer.PlaybackStarted');
-
-            app.endSession();
-        },
-
-        'AudioPlayer.PlaybackNearlyFinished': function() {
-            console.log('AudioPlayer.PlaybackNearlyFinished');
-
-            // Do something
-
-            app.endSession();
-        },
-
-        'AudioPlayer.PlaybackFinished': function() {
-            console.log('AudioPlayer.PlaybackFinished');
-
-            // Do something
-
-            app.endSession();
-        },
-
-        'AudioPlayer.PlaybackStopped': function() {
-            console.log('AudioPlayer.PlaybackStopped');
-
-            // Do something
-
-            app.endSession();
-        },
-
-    },
+    var audioPlayerInterface = ((((event.context || {}).System || {}).device || {}).supportedInterfaces || {}).AudioPlayer;
+    if (audioPlayerInterface === undefined) {
+        alexa.emit(':tell', 'Sorry, this skill is not supported on this device');
+    }
+    else {
+        alexa.execute();
+    }
 };

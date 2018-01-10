@@ -27,18 +27,17 @@
       "distributionCountries": []
     },
     "apis": {
-      "custom": {
-        "endpoint": {
-          "sslCertificateType": "Wildcard",
-          "uri": "https://1d5ddca3.ngrok.io/webhook"
-        },
-        "interfaces": [
-          {
-            "type": "AUDIO_PLAYER"
-          }
-        ]
-      }
-    },
+     "custom": {
+       "endpoint": {
+         "sourceDir": "lambda/custom"
+       },
+       "interfaces": [
+         {
+           "type": "AUDIO_PLAYER"
+         }
+       ]
+     }
+   },
     "manifestVersion": "1.0",
     "privacyAndCompliance": {
       "allowsPurchases": false,
