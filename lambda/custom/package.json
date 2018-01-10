@@ -4,19 +4,7 @@
   "description": "Stories for kids!",
   "main": "index.js",
   "dependencies": {
-    "aws-sdk": "^2.179.0",
-    "jovo-framework": "<=1.0.0",
-    "wpapi": "^1.1.2"
+    "jovo-framework": "<=1.0.0"
   },
   "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jovotech/jovo-sample-voice-app-nodejs.git"
-  },
-  "author": "Jovo",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/jovotech/jovo-sample-voice-app-nodejs/issues"
-  },
-  "homepage": "https://github.com/jovotech/jovo-sample-voice-app-nodejs#readme"
 }

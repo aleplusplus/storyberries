@@ -10,7 +10,6 @@ const myIntentMap = {
     'AMAZON.HelpIntent' : 'HelpIntent'
 };
 
-
 // Enable Logging for Quick Testing
 app.setConfig({
     requestLogging: true,
