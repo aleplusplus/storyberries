@@ -1,1975 +1,1977 @@
 {
-  "languageModel": {
-    "types": [
-      {
-        "name": "SortSlot",
-        "values": [
-          {
-            "id": "latest",
-            "name": {
-              "value": "latest",
-              "synonyms": [
-                "latest",
-                "recent",
-                "current",
-                "right now",
-                "breaking"
-              ]
-            }
-          },
-          {
-            "id": "top",
-            "name": {
-              "value": "top",
-              "synonyms": [
-                "top",
-                "biggest",
-                "main",
-                "hottest"
-              ]
-            }
-          },
-          {
-            "id": "trending",
-            "name": {
-              "value": "trending",
-              "synonyms": [
-                "trending"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "name": "TagSlot",
-        "values": [
-          {
-            "id": "ambition",
-            "name": {
-              "value": "ambition",
-              "synonyms": [
-                "ambition"
-              ]
-            }
-          },
-          {
-            "id": "anger",
-            "name": {
-              "value": "anger",
-              "synonyms": [
-                "anger"
-              ]
-            }
-          },
-          {
-            "id": "beauty",
-            "name": {
-              "value": "beauty",
-              "synonyms": [
-                "beauty"
-              ]
-            }
-          },
-          {
-            "id": "bedtime",
-            "name": {
-              "value": "bedtime",
-              "synonyms": [
-                "bedtime"
-              ]
-            }
-          },
-          {
-            "id": "bullying",
-            "name": {
-              "value": "bullying",
-              "synonyms": [
-                "bullying"
-              ]
-            }
-          },
-          {
-            "id": "co-operation",
-            "name": {
-              "value": "co-operation",
-              "synonyms": [
-                "co-operation"
-              ]
-            }
-          },
-          {
-            "id": "communication",
-            "name": {
-              "value": "communication",
-              "synonyms": [
-                "communication"
-              ]
-            }
-          },
-          {
-            "id": "community",
-            "name": {
-              "value": "community",
-              "synonyms": [
-                "community"
-              ]
-            }
-          },
-          {
-            "id": "conversation",
-            "name": {
-              "value": "conversation",
-              "synonyms": [
-                "conversation"
-              ]
-            }
-          },
-          {
-            "id": "courage",
-            "name": {
-              "value": "courage",
-              "synonyms": [
-                "courage"
-              ]
-            }
-          },
-          {
-            "id": "creativity",
-            "name": {
-              "value": "creativity",
-              "synonyms": [
-                "creativity"
-              ]
-            }
-          },
-          {
-            "id": "diligence",
-            "name": {
-              "value": "diligence",
-              "synonyms": [
-                "diligence"
-              ]
-            }
-          },
-          {
-            "id": "dying-and-loss",
-            "name": {
-              "value": "dying and loss",
-              "synonyms": [
-                "dying and loss"
-              ]
-            }
-          },
-          {
-            "id": "empathy",
-            "name": {
-              "value": "empathy",
-              "synonyms": [
-                "empathy"
-              ]
-            }
-          },
-          {
-            "id": "equality",
-            "name": {
-              "value": "equality",
-              "synonyms": [
-                "equality"
-              ]
-            }
-          },
-          {
-            "id": "ethics",
-            "name": {
-              "value": "ethics",
-              "synonyms": [
-                "ethics"
-              ]
-            }
-          },
-          {
-            "id": "fairness",
-            "name": {
-              "value": "fairness",
-              "synonyms": [
-                "fairness"
-              ]
-            }
-          },
-          {
-            "id": "family",
-            "name": {
-              "value": "family",
-              "synonyms": [
-                "family"
-              ]
-            }
-          },
-          {
-            "id": "fearfulness",
-            "name": {
-              "value": "fearfulness",
-              "synonyms": [
-                "fearfulness"
-              ]
-            }
-          },
-          {
-            "id": "feelings",
-            "name": {
-              "value": "feelings",
-              "synonyms": [
-                "feelings"
-              ]
-            }
-          },
-          {
-            "id": "focus",
-            "name": {
-              "value": "focus",
-              "synonyms": [
-                "focus"
-              ]
-            }
-          },
-          {
-            "id": "forgiveness",
-            "name": {
-              "value": "forgiveness",
-              "synonyms": [
-                "forgiveness"
-              ]
-            }
-          },
-          {
-            "id": "friendship",
-            "name": {
-              "value": "friendship",
-              "synonyms": [
-                "friendship"
-              ]
-            }
-          },
-          {
-            "id": "gender",
-            "name": {
-              "value": "gender",
-              "synonyms": [
-                "gender"
-              ]
-            }
-          },
-          {
-            "id": "generosity",
-            "name": {
-              "value": "generosity",
-              "synonyms": [
-                "generosity"
-              ]
-            }
-          },
-          {
-            "id": "good-manners",
-            "name": {
-              "value": "good manners",
-              "synonyms": [
-                "good manners"
-              ]
-            }
-          },
-          {
-            "id": "gratitude",
-            "name": {
-              "value": "gratitude",
-              "synonyms": [
-                "gratitude"
-              ]
-            }
-          },
-          {
-            "id": "greed",
-            "name": {
-              "value": "greed",
-              "synonyms": [
-                "greed"
-              ]
-            }
-          },
-          {
-            "id": "growing-up",
-            "name": {
-              "value": "growing-up",
-              "synonyms": [
-                "growing-up"
-              ]
-            }
-          },
-          {
-            "id": "hapiness",
-            "name": {
-              "value": "hapiness",
-              "synonyms": [
-                "hapiness"
-              ]
-            }
-          },
-          {
-            "id": "health",
-            "name": {
-              "value": "health",
-              "synonyms": [
-                "health"
-              ]
-            }
-          },
-          {
-            "id": "healthy-eating",
-            "name": {
-              "value": "healthy eating",
-              "synonyms": [
-                "healthy eating"
-              ]
-            }
-          },
-          {
-            "id": "helping",
-            "name": {
-              "value": "helping",
-              "synonyms": [
-                "helping"
-              ]
-            }
-          },
-          {
-            "id": "home",
-            "name": {
-              "value": "home",
-              "synonyms": [
-                "home"
-              ]
-            }
-          },
-          {
-            "id": "honesty",
-            "name": {
-              "value": "honesty",
-              "synonyms": [
-                "honesty"
-              ]
-            }
-          },
-          {
-            "id": "humility",
-            "name": {
-              "value": "humility",
-              "synonyms": [
-                "humility"
-              ]
-            }
-          },
-          {
-            "id": "independence",
-            "name": {
-              "value": "independence",
-              "synonyms": [
-                "independence"
-              ]
-            }
-          },
-          {
-            "id": "independent-thinking",
-            "name": {
-              "value": "independent thinking",
-              "synonyms": [
-                "independent thinking"
-              ]
-            }
-          },
-          {
-            "id": "individuality",
-            "name": {
-              "value": "individuality",
-              "synonyms": [
-                "individuality"
-              ]
-            }
-          },
-          {
-            "id": "jealousy",
-            "name": {
-              "value": "jealousy",
-              "synonyms": [
-                "jealousy"
-              ]
-            }
-          },
-          {
-            "id": "kindness",
-            "name": {
-              "value": "kidness",
-              "synonyms": [
-                "kindness"
-              ]
-            }
-          },
-          {
-            "id": "learning",
-            "name": {
-              "value": "learning",
-              "synonyms": [
-                "learning"
-              ]
-            }
-          },
-          {
-            "id": "love",
-            "name": {
-              "value": "love",
-              "synonyms": [
-                "love"
-              ]
-            }
-          },
-          {
-            "id": "motivation",
-            "name": {
-              "value": "motivation",
-              "synonyms": [
-                "motivation"
-              ]
-            }
-          },
-          {
-            "id": "nature",
-            "name": {
-              "value": "nature",
-              "synonyms": [
-                "nature"
-              ]
-            }
-          },
-          {
-            "id": "non-violence",
-            "name": {
-              "value": "non-violence",
-              "synonyms": [
-                "non-violence"
-              ]
-            }
-          },
-          {
-            "id": "obedience",
-            "name": {
-              "value": "obedience",
-              "synonyms": [
-                "obidience"
-              ]
-            }
-          },
-          {
-            "id": "older-people",
-            "name": {
-              "value": "older people",
-              "synonyms": [
-                "older people"
-              ]
-            }
-          },
-          {
-            "id": "optimism",
-            "name": {
-              "value": "optimism",
-              "synonyms": [
-                "optimism"
-              ]
-            }
-          },
-          {
-            "id": "over-confidence",
-            "name": {
-              "value": "over confidence",
-              "synonyms": [
-                "over confidence"
-              ]
-            }
-          },
-          {
-            "id": "passion",
-            "name": {
-              "value": "passion",
-              "synonyms": [
-                "passion"
-              ]
-            }
-          },
-          {
-            "id": "patience",
-            "name": {
-              "value": "patience",
-              "synonyms": [
-                "patience"
-              ]
-            }
-          },
-          {
-            "id": "peace",
-            "name": {
-              "value": "peace",
-              "synonyms": [
-                "peace"
-              ]
-            }
-          },
-          {
-            "id": "power",
-            "name": {
-              "value": "power",
-              "synonyms": [
-                "power"
-              ]
-            }
-          },
-          {
-            "id": "pride",
-            "name": {
-              "value": "pride",
-              "synonyms": [
-                "pride"
-              ]
-            }
-          },
-          {
-            "id": "promises",
-            "name": {
-              "value": "promises",
-              "synonyms": [
-                "promises"
-              ]
-            }
-          },
-          {
-            "id": "respect",
-            "name": {
-              "value": "respect",
-              "synonyms": [
-                "respect"
-              ]
-            }
-          },
-          {
-            "id": "responsability",
-            "name": {
-              "value": "responsability",
-              "synonyms": [
-                "responsability"
-              ]
-            }
-          },
-          {
-            "id": "self-confidence",
-            "name": {
-              "value": "self confidence",
-              "synonyms": [
-                "self confidence"
-              ]
-            }
-          },
-          {
-            "id": "sharing",
-            "name": {
-              "value": "sharing",
-              "synonyms": [
-                "sharing"
-              ]
-            }
-          },
-          {
-            "id": "sportmanship",
-            "name": {
-              "value": "sportmanship",
-              "synonyms": [
-                "sportmanship"
-              ]
-            }
-          },
-          {
-            "id": "stranger-danger",
-            "name": {
-              "value": "stranger danger",
-              "synonyms": [
-                "stranger danger"
-              ]
-            }
-          },
-          {
-            "id": "tradition",
-            "name": {
-              "value": "tradition",
-              "synonyms": [
-                "tradition"
-              ]
-            }
-          },
-          {
-            "id": "truthfulness",
-            "name": {
-              "value": "truthfulness",
-              "synonyms": [
-                "trusthfulness"
-              ]
-            }
-          },
-          {
-            "id": "working-hard",
-            "name": {
-              "value": "working hard",
-              "synonyms": [
-                "working hard"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "name": "TellerSlot",
-        "values": [
-          {
-            "id": "Geraint",
-            "name": {
-              "value": "Geraint",
-              "synonyms": [
-                "Geraint"
-              ]
-            }
-          },
-          {
-            "id": "Gwyneth",
-            "name": {
-              "value": "Gwyneth",
-              "synonyms": [
-                "Gwyneth"
-              ]
-            }
-          },
-          {
-            "id": "Mads",
-            "name":{
-              "value": "Mads",
-              "synonyms": [
-                "Mads"
-              ]
-            }
-          },
-          {
-            "id": "Naja",
-            "name":{
-              "value": "Naja",
-              "synonyms": [
-                "Naja"
-              ]
-            }
-          },
-          {
-            "id": "Hans",
-            "name":{
-              "value": "Hans",
-              "synonyms": [
-                "Hans"
-              ]
-            }
-          },
-          {
-            "id": "Marlene",
-            "name":{
-              "value": "Marlene",
-              "synonyms": [
-                "Marlene"
-              ]
-            }
-          },
-          {
-            "id": "Nicole",
-            "name":{
-              "value": "Nicole",
-              "synonyms": [
-                "Nicole"
-              ]
-            }
-          },
-          {
-            "id": "Russell",
-            "name":{
-              "value": "Russell",
-              "synonyms": [
-                "Russell"
-              ]
-            }
-          },
-          {
-            "id": "Amy",
-            "name":{
-              "value": "Amy",
-              "synonyms": [
-                "Amy"
-              ]
-            }
-          },
-          {
-            "id": "Brian",
-            "name":{
-              "value": "Brian",
-              "synonyms": [
-                "Brian"
-              ]
-            }
-          },
-          {
-            "id": "Emma",
-            "name":{
-              "value": "Emma",
-              "synonyms": [
-                "Emma"
-              ]
-            }
-          },
-          {
-            "id": "Raveena",
-            "name":{
-              "value": "Raveena",
-              "synonyms": [
-                "Raveena"
-              ]
-            }
-          },
-          {
-            "id": "Ivy",
-            "name":{
-              "value": "Ivy",
-              "synonyms": [
-                "Ivy"
-              ]
-            }
-          },
-          {
-            "id": "Joanna",
-            "name":{
-              "value": "Joanna",
-              "synonyms": [
-                "Joanna"
-              ]
-            }
-          },
-          {
-            "id": "Joey",
-            "name":{
-              "value": "Joey",
-              "synonyms": [
-                "Joey"
-              ]
-            }
-          },
-          {
-            "id": "Justin",
-            "name":{
-              "value": "Justin",
-              "synonyms": [
-                "Justin"
-              ]
-            }
-          },
-          {
-            "id": "Kendra",
-            "name":{
-              "value": "Kendra",
-              "synonyms": [
-                "Kendra"
-              ]
-            }
-          },
-          {
-            "id": "Kimberly",
-            "name":{
-              "value": "Kimberly",
-              "synonyms": [
-                "Kimberly"
-              ]
-            }
-          },
-          {
-            "id": "Salli",
-            "name":{
-              "value": "Salli",
-              "synonyms": [
-                "Salli"
-              ]
-            }
-          },
-          {
-            "id": "Conchita",
-            "name":{
-              "value": "Conchita",
-              "synonyms": [
-                "Conchita"
-              ]
-            }
-          },
-          {
-            "id": "Enrique",
-            "name":{
-              "value": "Enrique",
-              "synonyms": [
-                "Enrique"
-              ]
-            }
-          },
-          {
-            "id": "Miguel",
-            "name":{
-              "value": "Miguel",
-              "synonyms": [
-                "Miguel"
-              ]
-            }
-          },
-          {
-            "id": "Penelope",
-            "name":{
-              "value": "Penelope",
-              "synonyms": [
-                "Penelope"
-              ]
-            }
-          },
-          {
-            "id": "Chantal",
-            "name":{
-              "value": "Chantal",
-              "synonyms": [
-                "Chantal"
-              ]
-            }
-          },
-          {
-            "id": "Celine",
-            "name":{
-              "value": "Celine",
-              "synonyms": [
-                "Celine"
-              ]
-            }
-          },
-          {
-            "id": "Mathieu",
-            "name":{
-              "value": "Mathieu",
-              "synonyms": [
-                "Mathieu"
-              ]
-            }
-          },
-          {
-            "id": "Dora",
-            "name":{
-              "value": "Dora",
-              "synonyms": [
-                "Dora"
-              ]
-            }
-          },
-          {
-            "id": "Karl",
-            "name":{
-              "value": "Karl",
-              "synonyms": [
-                "Karl"
-              ]
-            }
-          },
-          {
-            "id": "Carla",
-            "name":{
-              "value": "Carla",
-              "synonyms": [
-                "Carla"
-              ]
-            }
-          },
-          {
-            "id": "Giorgio",
-            "name":{
-              "value": "Giorgio",
-              "synonyms": [
-                "Giorgio"
-              ]
-            }
-          },
-          {
-            "id": "Mizuki",
-            "name":{
-              "value": "Mizuki",
-              "synonyms": [
-                "Mizuki"
-              ]
-            }
-          },
-          {
-            "id": "Liv",
-            "name":{
-              "value": "Liv",
-              "synonyms": [
-                "Liv"
-              ]
-            }
-          },
-          {
-            "id": "Lotte",
-            "name":{
-              "value": "Lotte",
-              "synonyms": [
-                "Lotte"
-              ]
-            }
-          },
-          {
-            "id": "Ruben",
-            "name":{
-              "value": "Ruben",
-              "synonyms": [
-                "Ruben"
-              ]
-            }
-          },
-          {
-            "id": "Ewa",
-            "name":{
-              "value": "Ewa",
-              "synonyms": [
-                "Ewa"
-              ]
-            }
-          },
-          {
-            "id": "Jacek",
-            "name":{
-              "value": "Jacek",
-              "synonyms": [
-                "Jacek"
-              ]
-            }
-          },
-          {
-            "id": "Jan",
-            "name":{
-              "value": "Jan",
-              "synonyms": [
-                "Jan"
-              ]
-            }
-          },
-          {
-            "id": "Maja",
-            "name":{
-              "value": "Maja",
-              "synonyms": [
-                "Maja"
-              ]
-            }
-          },
-          {
-            "id": "Ricardo",
-            "name":{
-              "value": "Ricardo",
-              "synonyms": [
-                "Ricardo"
-              ]
-            }
-          },
-          {
-            "id": "Vitoria",
-            "name":{
-              "value": "Vitoria",
-              "synonyms": [
-                "Vitoria"
-              ]
-            }
-          },
-          {
-            "id": "Cristiano",
-            "name":{
-              "value": "Cristiano",
-              "synonyms": [
-                "Cristiano"
-              ]
-            }
-          },
-          {
-            "id": "Ines",
-            "name":{
-              "value": "Ines",
-              "synonyms": [
-                "Ines"
-              ]
-            }
-          },
-          {
-            "id": "Carmen",
-            "name":{
-              "value": "Carmen",
-              "synonyms": [
-                "Carmen"
-              ]
-            }
-          },
-          {
-            "id": "Maxim",
-            "name":{
-              "value": "Maxim",
-              "synonyms": [
-                "Maxim"
-              ]
-            }
-          },
-          {
-            "id": "Tatyana",
-            "name":{
-              "value": "Tatyana",
-              "synonyms": [
-                "Tatyana"
-              ]
-            }
-          },
-          {
-            "id": "Astrid",
-            "name":{
-              "value": "Astrid",
-              "synonyms": [
-                "Astrid"
-              ]
-            }
-          },
-          {
-            "id": "Filiz",
-            "name":{
-              "value": "Filiz",
-              "synonyms": [
-                "Filiz"
-              ]
-            }
-          },
-        ]
-      },
-      {
-        "name": "TopicSlot",
-        "values": [
-          {
-            "id": "10-min-stories",
-            "name": {
-              "value": "10 Min Stories",
-              "synonyms": [
-                "10 minutes stories",
-                "10 minutes"
-              ]
-            }
-          },
-          {
-            "id": "15-min-stories",
-            "name": {
-              "value": "15 Min Stories",
-              "synonyms": [
-                "15 minutes",
-                "15 minutes stories"
-              ]
-            }
-          },
-          {
-            "id": "20-mins",
-            "name": {
-              "value": "20 Mins+",
-              "synonyms": [
-                "20 minutes",
-                "20 minutes or more",
-                "20 minutes stories"
-              ]
-            }
-          },
-          {
-            "id": "5-min-stories",
-            "name": {
-              "value": "5 Min Stories",
-              "synonyms": [
-                "5 minutes",
-                "5 minutes stories"
-              ]
-            }
-          },
-          {
-            "id": "adventures",
-            "name": {
-              "value": "Adventures",
-              "synonyms": [
-                "Adventures",
-                "Adventures' stories"
-              ]
-            }
-          },
-          {
-            "id": "african-stories",
-            "name": {
-              "value": "African Stories",
-              "synonyms": [
-                "African Stories",
-                "African"
-              ]
-            }
-          },
-          {
-            "id": "age0-3",
-            "name": {
-              "value": "Age 0-3",
-              "synonyms": [
-                "Age from 0 to 3",
-                "From 0 to 3"
-              ]
-            }
-          },
-          {
-            "id": "age4-6",
-            "name": {
-              "value": "Age 4-6",
-              "synonyms": [
-                "From 4 to 6",
-                "Age from 4 to 6"
-              ]
-            }
-          },
-          {
-            "id": "age7-12",
-            "name": {
-              "value": "Age 7-12",
-              "synonyms": [
-                "From 7 to 12",
-                "Age from 7 to 12"
-              ]
-            }
-          },
-          {
-            "id": "alphabet",
-            "name": {
-              "value": "Alphabet",
-              "synonyms": [
-                "Alphabet",
-                "Alphabet Stories"
-              ]
-            }
-          },
-          {
-            "id": "animals",
-            "name": {
-              "value": "Animals",
-              "synonyms": [
-                "Animals",
-                "Animals Stories"
-              ]
-            }
-          },
-          {
-            "id": "arabic-stories",
-            "name": {
-              "value": "Arabic Stories",
-              "synonyms": [
-                "Arabic Stories",
-                "Arabic"
-              ]
-            }
-          },
-          {
-            "id": "art",
-            "name": {
-              "value": "Art",
-              "synonyms": [
-                "Art Stories",
-                "Art"
-              ]
-            }
-          },
-          {
-            "id": "australian-poems",
-            "name": {
-              "value": "Australian poems",
-              "synonyms": [
-                "Australian",
-                "Australian poems"
-              ]
-            }
-          },
-          {
-            "id": "bathtime",
-            "name": {
-              "value": "Bathtime",
-              "synonyms": [
-                "Bathtime",
-                "Bathtime Stories"
-              ]
-            }
-          },
-          {
-            "id": "bedtime",
-            "name": {
-              "value": "Bedtime",
-              "synonyms": [
-                "Bedtime",
-                "Bedtime stories"
-              ]
-            }
-          },
-          {
-            "id": "celtic-stories",
-            "name": {
-              "value": "Celtic Stories",
-              "synonyms": [
-                "Celtic Stories",
-                "Celtic"
-              ]
-            }
-          },
-          {
-            "id": "chinese-stories",
-            "name": {
-              "value": "Chinese Stories",
-              "synonyms": [
-                "Chinese",
-                "Chinese Stories"
-              ]
-            }
-          },
-          {
-            "id": "christmas",
-            "name": {
-              "value": "Christmas",
-              "synonyms": [
-                "Christmas",
-                "Christmas Stories"
-              ]
-            }
-          },
-          {
-            "id": "circus",
-            "name": {
-              "value": "Circus",
-              "synonyms": [
-                "Circus",
-                "Circus Stories"
-              ]
-            }
-          },
-          {
-            "id": "comic-books",
-            "name": {
-              "value": "Comic Books",
-              "synonyms": [
-                "Comic Books",
-                "Comic"
-              ]
-            }
-          },
-          {
-            "id": "cooking",
-            "name": {
-              "value": "Cooking",
-              "synonyms": [
-                "Cooking",
-                "Cooking Stories"
-              ]
-            }
-          },
-          {
-            "id": "dancers",
-            "name": {
-              "value": "Dancers",
-              "synonyms": [
-                "Dancers",
-                "Dancers Stories"
-              ]
-            }
-          },
-          {
-            "id": "dinosaurs",
-            "name": {
-              "value": "Dinosaurs",
-              "synonyms": [
-                "Dinosaurs",
-                "Dinosaurs Stories"
-              ]
-            }
-          },
-          {
-            "id": "dolls",
-            "name": {
-              "value": "Dolls",
-              "synonyms": [
-                "Dolls",
-                "Dolls Stories"
-              ]
-            }
-          },
-          {
-            "id": "dragons",
-            "name": {
-              "value": "Dragons",
-              "synonyms": [
-                "Dragons",
-                "Dragons Stories"
-              ]
-            }
-          },
-          {
-            "id": "early-readers",
-            "name": {
-              "value": "Early Readers",
-              "synonyms": [
-                "Early Readers",
-                "Early Readers Stories"
-              ]
-            }
-          },
-          {
-            "id": "fables",
-            "name": {
-              "value": "Fables",
-              "synonyms": [
-                "Fables"
-              ]
-            }
-          },
-          {
-            "id": "fairies",
-            "name": {
-              "value": "Fairies",
-              "synonyms": [
-                "Fairies",
-                "Fairies Stories"
-              ]
-            }
-          },
-          {
-            "id": "fairy-tales",
-            "name": {
-              "value": "Fairy Tales",
-              "synonyms": [
-                "Fairy Tales",
-                "Fairy Tales Stories"
-              ]
-            }
-          },
-          {
-            "id": "family",
-            "name": {
-              "value": "Family",
-              "synonyms": [
-                "Family",
-                "Family Stories"
-              ]
-            }
-          },
-          {
-            "id": "friends",
-            "name": {
-              "value": "Friends",
-              "synonyms": [
-                "Friends",
-                "Friends Stories"
-              ]
-            }
-          },
-          {
-            "id": "funny",
-            "name": {
-              "value": "Funny",
-              "synonyms": [
-                "Funny",
-                "Funny Stories"
-              ]
-            }
-          },
-          {
-            "id": "gardens",
-            "name": {
-              "value": "Gardens",
-              "synonyms": [
-                "Gardens",
-                "Gardens Stories"
-              ]
-            }
-          },
-          {
-            "id": "ghosts",
-            "name": {
-              "value": "Ghosts",
-              "synonyms": [
-                "Ghosts",
-                "Ghosts Stories"
-              ]
-            }
-          },
-          {
-            "id": "grandparents",
-            "name": {
-              "value": "Grandparents",
-              "synonyms": [
-                "Grandparents",
-                "Grandparents Stories"
-              ]
-            }
-          },
-          {
-            "id": "grid-category",
-            "name": {
-              "value": "Grid Category",
-              "synonyms": [
-                "Grid Category",
-                "Grid Category Stories"
-              ]
-            }
-          },
-          {
-            "id": "heroes",
-            "name": {
-              "value": "Heroes",
-              "synonyms": [
-                "Heroes",
-                "Heroes Stories"
-              ]
-            }
-          },
-          {
-            "id": "indian-stories",
-            "name": {
-              "value": "Indian Stories",
-              "synonyms": [
-                "Indian Stories",
-                "Indian"
-              ]
-            }
-          },
-          {
-            "id": "japanese-stories",
-            "name": {
-              "value": "Japanese Stories",
-              "synonyms": [
-                "Japanese Stories",
-                "Japanese"
-              ]
-            }
-          },
-          {
-            "id": "korean-stories",
-            "name": {
-              "value": "Korean Stories",
-              "synonyms": [
-                "Korean",
-                "Korean Stories"
-              ]
-            }
-          },
-          {
-            "id": "length",
-            "name": {
-              "value": "Length",
-              "synonyms": [
-                "Length Stories",
-                "Length"
-              ]
-            }
-          },
-          {
-            "id": "limericks",
-            "name": {
-              "value": "Limericks",
-              "synonyms": [
-                "Limericks",
-                "Limericks Stories"
-              ]
-            }
-          },
-          {
-            "id": "love",
-            "name": {
-              "value": "Love",
-              "synonyms": [
-                "Love",
-                "Love Stories"
-              ]
-            }
-          },
-          {
-            "id": "magic",
-            "name": {
-              "value": "Magic",
-              "synonyms": [
-                "Magic",
-                "Magic Stories"
-              ]
-            }
-          },
-          {
-            "id": "monsters",
-            "name": {
-              "value": "Monsters",
-              "synonyms": [
-                "Monsters",
-                "Monsters Stories"
-              ]
-            }
-          },
-          {
-            "id": "morals",
-            "name": {
-              "value": "Morals",
-              "synonyms": [
-                "Morals",
-                "Morals Stories"
-              ]
-            }
-          },
-          {
-            "id": "mysteries",
-            "name": {
-              "value": "Mysteries",
-              "synonyms": [
-                "Mysteries",
-                "Mysteries Stories"
-              ]
-            }
-          },
-          {
-            "id": "myths",
-            "name": {
-              "value": "Myths",
-              "synonyms": [
-                "Myths"
-              ]
-            }
-          },
-          {
-            "id": "native-american",
-            "name": {
-              "value": "Native American",
-              "synonyms": [
-                "native American",
-                "Native American Stories"
-              ]
-            }
-          },
-          {
-            "id": "no-words",
-            "name": {
-              "value": "No-Words Stories",
-              "synonyms": [
-                "Non-Words Stories",
-                "Non-Stories"
-              ]
-            }
-          },
-          {
-            "id": "non-fiction",
-            "name": {
-              "value": "Non-Fiction",
-              "synonyms": [
-                "Non-Fiction",
-                "Non-Fiction Stories"
-              ]
-            }
-          },
-          {
-            "id": "nordic-stories",
-            "name": {
-              "value": "Nordic Stories",
-              "synonyms": [
-                "Nordic Stories",
-                "Nordic"
-              ]
-            }
-          },
-          {
-            "id": "numbers",
-            "name": {
-              "value": "Numbers",
-              "synonyms": [
-                "Numbers",
-                "Numbers Stories"
-              ]
-            }
-          },
-          {
-            "id": "picture-books",
-            "name": {
-              "value": "Picture Books",
-              "synonyms": [
-                "Picture Books",
-                "Picture Books Stories",
-                "Picture"
-              ]
-            }
-          },
-          {
-            "id": "pirates",
-            "name": {
-              "value": "Pirates",
-              "synonyms": [
-                "Pirates",
-                "Pirates Stories"
-              ]
-            }
-          },
-          {
-            "id": "poems-for-kids",
-            "name": {
-              "value": "Poems for kids",
-              "synonyms": [
-                "Poems for kids",
-                "Poems"
-              ]
-            }
-          },
-          {
-            "id": "prince-princesses",
-            "name": {
-              "value": "Princes and Princesses",
-              "synonyms": [
-                "Princes and Princesses",
-                "Princes and Princesses Stories",
-                "Princes",
-                "Princess",
-                "Prince Stories",
-                "Princess Stories"
-              ]
-            }
-          },
-          {
-            "id": "sad",
-            "name": {
-              "value": "Sad",
-              "synonyms": [
-                "Sad",
-                "Sad Stories"
-              ]
-            }
-          },
-          {
-            "id": "scary",
-            "name": {
-              "value": "Scary",
-              "synonyms": [
-                "Scary",
-                "Scary Stories"
-              ]
-            }
-          },
-          {
-            "id": "school",
-            "name": {
-              "value": "School",
-              "synonyms": [
-                "School",
-                "School Stories"
-              ]
-            }
-          },
-          {
-            "id": "seasons",
-            "name": {
-              "value": "Seasons",
-              "synonyms": [
-                "Seasons",
-                "Seasons Stories"
-              ]
-            }
-          },
-          {
-            "id": "siblings",
-            "name": {
-              "value": "Siblings",
-              "synonyms": [
-                "Siblings",
-                "Siblings Stories"
-              ]
-            }
-          },
-          {
-            "id": "space",
-            "name": {
-              "value": "Space",
-              "synonyms": [
-                "Space",
-                "Space Stories"
-              ]
-            }
-          },
-          {
-            "id": "toys",
-            "name": {
-              "value": "Toys",
-              "synonyms": [
-                "Toys",
-                "Toys Stories"
-              ]
-            }
-          },
-          {
-            "id": "trains",
-            "name": {
-              "value": "Trains",
-              "synonyms": [
-                "Trains",
-                "Trains Stories"
-              ]
-            }
-          },
-          {
-            "id": "uncategorized",
-            "name": {
-              "value": "Uncategorized",
-              "synonyms": [
-                "Uncategorized",
-                "Uncategorized Stories"
-              ]
-            }
-          },
-          {
-            "id": "vintage-stories",
-            "name": {
-              "value": "Vintage Stories",
-              "synonyms": [
-                "Vintage Stories",
-                "Vintage"
-              ]
-            }
-          },
-          {
-            "id": "witches",
-            "name": {
-              "value": "Witches",
-              "synonyms": [
-                "Witches",
-                "Witches Stories"
-              ]
-            }
-          },
-          {
-            "id": "one",
-            "name": {
-              "value": "One",
-              "synonyms": [
-                "One",
-                "One years old"
-              ]
-            }
-          },
-          {
-            "id": "two",
-            "name": {
-              "value": "Two",
-              "synonyms": [
-                "two",
-                "two years old"
-              ]
-            }
-          },
-          {
-            "id": "three",
-            "name": {
-              "value": "Three",
-              "synonyms": [
-                "three",
-                "three years old"
-              ]
-            }
-          },
-          {
-            "id": "four",
-            "name": {
-              "value": "Four",
-              "synonyms": [
-                "four",
-                "four years old"
-              ]
-            }
-          },
-          {
-            "id": "five",
-            "name": {
-              "value": "Five",
-              "synonyms": [
-                "five",
-                "five years old"
-              ]
-            }
-          },
-          {
-            "id": "six",
-            "name": {
-              "value": "Six",
-              "synonyms": [
-                "six",
-                "six years old"
-              ]
-            }
-          },
-          {
-            "id": "seven",
-            "name": {
-              "value": "Seven",
-              "synonyms": [
-                "seven",
-                "seven years old"
-              ]
-            }
-          },
-          {
-            "id": "eight",
-            "name": {
-              "value": "Eight",
-              "synonyms": [
-                "eight",
-                "eight years old"
-              ]
-            }
-          },
-          {
-            "id": "nine",
-            "name": {
-              "value": "Nine",
-              "synonyms": [
-                "nine",
-                "nine years old"
-              ]
-            }
-          },
-          {
-            "id": "ten",
-            "name": {
-              "value": "Ten",
-              "synonyms": [
-                "ten",
-                "ten years old"
-              ]
-            }
-          },
-          {
-            "id": "eleven",
-            "name": {
-              "value": "Eleven",
-              "synonyms": [
-                "eleven",
-                "eleven years old"
-              ]
-            }
-          },
-          {
-            "id": "twelve",
-            "name": {
-              "value": "Twelve",
-              "synonyms": [
-                "twelve",
-                "twelve years old"
-              ]
-            }
-          },
-          {
-            "id": "thirteen",
-            "name": {
-              "value": "Thirteen",
-              "synonyms": [
-                "thirteen",
-                "thirteen years old"
-              ]
-            }
-          }
-        ]
-      }
-    ],
-    "intents": [
-      {
-        "name": "AMAZON.CancelIntent",
-        "samples": []
-      },
-      {
-        "name": "AMAZON.HelpIntent",
-        "samples": []
-      },
-      {
-        "name": "AMAZON.NextIntent",
-        "samples": []
-      },
-      {
-        "name": "AMAZON.PauseIntent",
-        "samples": []
-      },
-      {
-        "name": "AMAZON.PreviousIntent",
-        "samples": []
-      },
-      {
-        "name": "AMAZON.RepeatIntent",
-        "samples": []
-      },
-      {
-        "name": "AMAZON.ResumeIntent",
-        "samples": []
-      },
-      {
-        "name": "AMAZON.StopIntent",
-        "samples": []
-      },
-      {
-        "name": "PlayStory",
-        "samples": [
-          "stories",
-          "read stories",
-          "I want to hear a story ",
-          "read a story",
-          "I want to read the {sort} stories about {tag} by {author}",
-          "read {sort} stories about {tag}",
-          "give me the {sort} {topic} stories",
-          "{sort} stories",
-          "read the {sort} story",
-          "{date} stories",
-          "read {date} stories",
-          "{topic} stories",
-          "show me stories about {tag} on {topic}",
-          "read me {date} the {sort} story about {tag} on {topic} by {author}",
-          "suggest me a {topic}",
-          "read me a story for my {topic} years old",
-          "read me a story from {topic}",
-          "read me a story by {author} from {topic}",
-          "story of {tag} by {author}",
-          "show me stories for my {topic} son",
-          "show me stories for my {topic} daughter"
-        ],
-        "slots": [
-          {
-            "name": "topic",
-            "type": "TopicSlot"
-          },
-          {
-            "name": "tag",
-            "type": "TagSlot"
-          },
-          {
-            "name": "date",
-            "type": "AMAZON.DATE"
-          },
-          {
-            "name": "author",
-            "type": "AMAZON.Author"
-          },
-          {
-            "name": "sort",
-            "type": "SortSlot"
-          }
-        ]
-      }
-    ],
-    "invocationName": "storyberries tales"
+  "interactionModel": {
+    "languageModel": {
+      "types": [
+        {
+          "name": "SortSlot",
+          "values": [
+            {
+              "id": "latest",
+              "name": {
+                "value": "latest",
+                "synonyms": [
+                  "latest",
+                  "recent",
+                  "current",
+                  "right now",
+                  "breaking"
+                ]
+              }
+            },
+            {
+              "id": "top",
+              "name": {
+                "value": "top",
+                "synonyms": [
+                  "top",
+                  "biggest",
+                  "main",
+                  "hottest"
+                ]
+              }
+            },
+            {
+              "id": "trending",
+              "name": {
+                "value": "trending",
+                "synonyms": [
+                  "trending"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "TagSlot",
+          "values": [
+            {
+              "id": "ambition",
+              "name": {
+                "value": "ambition",
+                "synonyms": [
+                  "ambition"
+                ]
+              }
+            },
+            {
+              "id": "anger",
+              "name": {
+                "value": "anger",
+                "synonyms": [
+                  "anger"
+                ]
+              }
+            },
+            {
+              "id": "beauty",
+              "name": {
+                "value": "beauty",
+                "synonyms": [
+                  "beauty"
+                ]
+              }
+            },
+            {
+              "id": "bedtime",
+              "name": {
+                "value": "bedtime",
+                "synonyms": [
+                  "bedtime"
+                ]
+              }
+            },
+            {
+              "id": "bullying",
+              "name": {
+                "value": "bullying",
+                "synonyms": [
+                  "bullying"
+                ]
+              }
+            },
+            {
+              "id": "co-operation",
+              "name": {
+                "value": "co-operation",
+                "synonyms": [
+                  "co-operation"
+                ]
+              }
+            },
+            {
+              "id": "communication",
+              "name": {
+                "value": "communication",
+                "synonyms": [
+                  "communication"
+                ]
+              }
+            },
+            {
+              "id": "community",
+              "name": {
+                "value": "community",
+                "synonyms": [
+                  "community"
+                ]
+              }
+            },
+            {
+              "id": "conversation",
+              "name": {
+                "value": "conversation",
+                "synonyms": [
+                  "conversation"
+                ]
+              }
+            },
+            {
+              "id": "courage",
+              "name": {
+                "value": "courage",
+                "synonyms": [
+                  "courage"
+                ]
+              }
+            },
+            {
+              "id": "creativity",
+              "name": {
+                "value": "creativity",
+                "synonyms": [
+                  "creativity"
+                ]
+              }
+            },
+            {
+              "id": "diligence",
+              "name": {
+                "value": "diligence",
+                "synonyms": [
+                  "diligence"
+                ]
+              }
+            },
+            {
+              "id": "dying-and-loss",
+              "name": {
+                "value": "dying and loss",
+                "synonyms": [
+                  "dying and loss"
+                ]
+              }
+            },
+            {
+              "id": "empathy",
+              "name": {
+                "value": "empathy",
+                "synonyms": [
+                  "empathy"
+                ]
+              }
+            },
+            {
+              "id": "equality",
+              "name": {
+                "value": "equality",
+                "synonyms": [
+                  "equality"
+                ]
+              }
+            },
+            {
+              "id": "ethics",
+              "name": {
+                "value": "ethics",
+                "synonyms": [
+                  "ethics"
+                ]
+              }
+            },
+            {
+              "id": "fairness",
+              "name": {
+                "value": "fairness",
+                "synonyms": [
+                  "fairness"
+                ]
+              }
+            },
+            {
+              "id": "family",
+              "name": {
+                "value": "family",
+                "synonyms": [
+                  "family"
+                ]
+              }
+            },
+            {
+              "id": "fearfulness",
+              "name": {
+                "value": "fearfulness",
+                "synonyms": [
+                  "fearfulness"
+                ]
+              }
+            },
+            {
+              "id": "feelings",
+              "name": {
+                "value": "feelings",
+                "synonyms": [
+                  "feelings"
+                ]
+              }
+            },
+            {
+              "id": "focus",
+              "name": {
+                "value": "focus",
+                "synonyms": [
+                  "focus"
+                ]
+              }
+            },
+            {
+              "id": "forgiveness",
+              "name": {
+                "value": "forgiveness",
+                "synonyms": [
+                  "forgiveness"
+                ]
+              }
+            },
+            {
+              "id": "friendship",
+              "name": {
+                "value": "friendship",
+                "synonyms": [
+                  "friendship"
+                ]
+              }
+            },
+            {
+              "id": "gender",
+              "name": {
+                "value": "gender",
+                "synonyms": [
+                  "gender"
+                ]
+              }
+            },
+            {
+              "id": "generosity",
+              "name": {
+                "value": "generosity",
+                "synonyms": [
+                  "generosity"
+                ]
+              }
+            },
+            {
+              "id": "good-manners",
+              "name": {
+                "value": "good manners",
+                "synonyms": [
+                  "good manners"
+                ]
+              }
+            },
+            {
+              "id": "gratitude",
+              "name": {
+                "value": "gratitude",
+                "synonyms": [
+                  "gratitude"
+                ]
+              }
+            },
+            {
+              "id": "greed",
+              "name": {
+                "value": "greed",
+                "synonyms": [
+                  "greed"
+                ]
+              }
+            },
+            {
+              "id": "growing-up",
+              "name": {
+                "value": "growing-up",
+                "synonyms": [
+                  "growing-up"
+                ]
+              }
+            },
+            {
+              "id": "hapiness",
+              "name": {
+                "value": "hapiness",
+                "synonyms": [
+                  "hapiness"
+                ]
+              }
+            },
+            {
+              "id": "health",
+              "name": {
+                "value": "health",
+                "synonyms": [
+                  "health"
+                ]
+              }
+            },
+            {
+              "id": "healthy-eating",
+              "name": {
+                "value": "healthy eating",
+                "synonyms": [
+                  "healthy eating"
+                ]
+              }
+            },
+            {
+              "id": "helping",
+              "name": {
+                "value": "helping",
+                "synonyms": [
+                  "helping"
+                ]
+              }
+            },
+            {
+              "id": "home",
+              "name": {
+                "value": "home",
+                "synonyms": [
+                  "home"
+                ]
+              }
+            },
+            {
+              "id": "honesty",
+              "name": {
+                "value": "honesty",
+                "synonyms": [
+                  "honesty"
+                ]
+              }
+            },
+            {
+              "id": "humility",
+              "name": {
+                "value": "humility",
+                "synonyms": [
+                  "humility"
+                ]
+              }
+            },
+            {
+              "id": "independence",
+              "name": {
+                "value": "independence",
+                "synonyms": [
+                  "independence"
+                ]
+              }
+            },
+            {
+              "id": "independent-thinking",
+              "name": {
+                "value": "independent thinking",
+                "synonyms": [
+                  "independent thinking"
+                ]
+              }
+            },
+            {
+              "id": "individuality",
+              "name": {
+                "value": "individuality",
+                "synonyms": [
+                  "individuality"
+                ]
+              }
+            },
+            {
+              "id": "jealousy",
+              "name": {
+                "value": "jealousy",
+                "synonyms": [
+                  "jealousy"
+                ]
+              }
+            },
+            {
+              "id": "kindness",
+              "name": {
+                "value": "kidness",
+                "synonyms": [
+                  "kindness"
+                ]
+              }
+            },
+            {
+              "id": "learning",
+              "name": {
+                "value": "learning",
+                "synonyms": [
+                  "learning"
+                ]
+              }
+            },
+            {
+              "id": "love",
+              "name": {
+                "value": "love",
+                "synonyms": [
+                  "love"
+                ]
+              }
+            },
+            {
+              "id": "motivation",
+              "name": {
+                "value": "motivation",
+                "synonyms": [
+                  "motivation"
+                ]
+              }
+            },
+            {
+              "id": "nature",
+              "name": {
+                "value": "nature",
+                "synonyms": [
+                  "nature"
+                ]
+              }
+            },
+            {
+              "id": "non-violence",
+              "name": {
+                "value": "non-violence",
+                "synonyms": [
+                  "non-violence"
+                ]
+              }
+            },
+            {
+              "id": "obedience",
+              "name": {
+                "value": "obedience",
+                "synonyms": [
+                  "obidience"
+                ]
+              }
+            },
+            {
+              "id": "older-people",
+              "name": {
+                "value": "older people",
+                "synonyms": [
+                  "older people"
+                ]
+              }
+            },
+            {
+              "id": "optimism",
+              "name": {
+                "value": "optimism",
+                "synonyms": [
+                  "optimism"
+                ]
+              }
+            },
+            {
+              "id": "over-confidence",
+              "name": {
+                "value": "over confidence",
+                "synonyms": [
+                  "over confidence"
+                ]
+              }
+            },
+            {
+              "id": "passion",
+              "name": {
+                "value": "passion",
+                "synonyms": [
+                  "passion"
+                ]
+              }
+            },
+            {
+              "id": "patience",
+              "name": {
+                "value": "patience",
+                "synonyms": [
+                  "patience"
+                ]
+              }
+            },
+            {
+              "id": "peace",
+              "name": {
+                "value": "peace",
+                "synonyms": [
+                  "peace"
+                ]
+              }
+            },
+            {
+              "id": "power",
+              "name": {
+                "value": "power",
+                "synonyms": [
+                  "power"
+                ]
+              }
+            },
+            {
+              "id": "pride",
+              "name": {
+                "value": "pride",
+                "synonyms": [
+                  "pride"
+                ]
+              }
+            },
+            {
+              "id": "promises",
+              "name": {
+                "value": "promises",
+                "synonyms": [
+                  "promises"
+                ]
+              }
+            },
+            {
+              "id": "respect",
+              "name": {
+                "value": "respect",
+                "synonyms": [
+                  "respect"
+                ]
+              }
+            },
+            {
+              "id": "responsability",
+              "name": {
+                "value": "responsability",
+                "synonyms": [
+                  "responsability"
+                ]
+              }
+            },
+            {
+              "id": "self-confidence",
+              "name": {
+                "value": "self confidence",
+                "synonyms": [
+                  "self confidence"
+                ]
+              }
+            },
+            {
+              "id": "sharing",
+              "name": {
+                "value": "sharing",
+                "synonyms": [
+                  "sharing"
+                ]
+              }
+            },
+            {
+              "id": "sportmanship",
+              "name": {
+                "value": "sportmanship",
+                "synonyms": [
+                  "sportmanship"
+                ]
+              }
+            },
+            {
+              "id": "stranger-danger",
+              "name": {
+                "value": "stranger danger",
+                "synonyms": [
+                  "stranger danger"
+                ]
+              }
+            },
+            {
+              "id": "tradition",
+              "name": {
+                "value": "tradition",
+                "synonyms": [
+                  "tradition"
+                ]
+              }
+            },
+            {
+              "id": "truthfulness",
+              "name": {
+                "value": "truthfulness",
+                "synonyms": [
+                  "trusthfulness"
+                ]
+              }
+            },
+            {
+              "id": "working-hard",
+              "name": {
+                "value": "working hard",
+                "synonyms": [
+                  "working hard"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "TellerSlot",
+          "values": [
+            {
+              "id": "Geraint",
+              "name": {
+                "value": "Geraint",
+                "synonyms": [
+                  "Geraint"
+                ]
+              }
+            },
+            {
+              "id": "Gwyneth",
+              "name": {
+                "value": "Gwyneth",
+                "synonyms": [
+                  "Gwyneth"
+                ]
+              }
+            },
+            {
+              "id": "Mads",
+              "name":{
+                "value": "Mads",
+                "synonyms": [
+                  "Mads"
+                ]
+              }
+            },
+            {
+              "id": "Naja",
+              "name":{
+                "value": "Naja",
+                "synonyms": [
+                  "Naja"
+                ]
+              }
+            },
+            {
+              "id": "Hans",
+              "name":{
+                "value": "Hans",
+                "synonyms": [
+                  "Hans"
+                ]
+              }
+            },
+            {
+              "id": "Marlene",
+              "name":{
+                "value": "Marlene",
+                "synonyms": [
+                  "Marlene"
+                ]
+              }
+            },
+            {
+              "id": "Nicole",
+              "name":{
+                "value": "Nicole",
+                "synonyms": [
+                  "Nicole"
+                ]
+              }
+            },
+            {
+              "id": "Russell",
+              "name":{
+                "value": "Russell",
+                "synonyms": [
+                  "Russell"
+                ]
+              }
+            },
+            {
+              "id": "Amy",
+              "name":{
+                "value": "Amy",
+                "synonyms": [
+                  "Amy"
+                ]
+              }
+            },
+            {
+              "id": "Brian",
+              "name":{
+                "value": "Brian",
+                "synonyms": [
+                  "Brian"
+                ]
+              }
+            },
+            {
+              "id": "Emma",
+              "name":{
+                "value": "Emma",
+                "synonyms": [
+                  "Emma"
+                ]
+              }
+            },
+            {
+              "id": "Raveena",
+              "name":{
+                "value": "Raveena",
+                "synonyms": [
+                  "Raveena"
+                ]
+              }
+            },
+            {
+              "id": "Ivy",
+              "name":{
+                "value": "Ivy",
+                "synonyms": [
+                  "Ivy"
+                ]
+              }
+            },
+            {
+              "id": "Joanna",
+              "name":{
+                "value": "Joanna",
+                "synonyms": [
+                  "Joanna"
+                ]
+              }
+            },
+            {
+              "id": "Joey",
+              "name":{
+                "value": "Joey",
+                "synonyms": [
+                  "Joey"
+                ]
+              }
+            },
+            {
+              "id": "Justin",
+              "name":{
+                "value": "Justin",
+                "synonyms": [
+                  "Justin"
+                ]
+              }
+            },
+            {
+              "id": "Kendra",
+              "name":{
+                "value": "Kendra",
+                "synonyms": [
+                  "Kendra"
+                ]
+              }
+            },
+            {
+              "id": "Kimberly",
+              "name":{
+                "value": "Kimberly",
+                "synonyms": [
+                  "Kimberly"
+                ]
+              }
+            },
+            {
+              "id": "Salli",
+              "name":{
+                "value": "Salli",
+                "synonyms": [
+                  "Salli"
+                ]
+              }
+            },
+            {
+              "id": "Conchita",
+              "name":{
+                "value": "Conchita",
+                "synonyms": [
+                  "Conchita"
+                ]
+              }
+            },
+            {
+              "id": "Enrique",
+              "name":{
+                "value": "Enrique",
+                "synonyms": [
+                  "Enrique"
+                ]
+              }
+            },
+            {
+              "id": "Miguel",
+              "name":{
+                "value": "Miguel",
+                "synonyms": [
+                  "Miguel"
+                ]
+              }
+            },
+            {
+              "id": "Penelope",
+              "name":{
+                "value": "Penelope",
+                "synonyms": [
+                  "Penelope"
+                ]
+              }
+            },
+            {
+              "id": "Chantal",
+              "name":{
+                "value": "Chantal",
+                "synonyms": [
+                  "Chantal"
+                ]
+              }
+            },
+            {
+              "id": "Celine",
+              "name":{
+                "value": "Celine",
+                "synonyms": [
+                  "Celine"
+                ]
+              }
+            },
+            {
+              "id": "Mathieu",
+              "name":{
+                "value": "Mathieu",
+                "synonyms": [
+                  "Mathieu"
+                ]
+              }
+            },
+            {
+              "id": "Dora",
+              "name":{
+                "value": "Dora",
+                "synonyms": [
+                  "Dora"
+                ]
+              }
+            },
+            {
+              "id": "Karl",
+              "name":{
+                "value": "Karl",
+                "synonyms": [
+                  "Karl"
+                ]
+              }
+            },
+            {
+              "id": "Carla",
+              "name":{
+                "value": "Carla",
+                "synonyms": [
+                  "Carla"
+                ]
+              }
+            },
+            {
+              "id": "Giorgio",
+              "name":{
+                "value": "Giorgio",
+                "synonyms": [
+                  "Giorgio"
+                ]
+              }
+            },
+            {
+              "id": "Mizuki",
+              "name":{
+                "value": "Mizuki",
+                "synonyms": [
+                  "Mizuki"
+                ]
+              }
+            },
+            {
+              "id": "Liv",
+              "name":{
+                "value": "Liv",
+                "synonyms": [
+                  "Liv"
+                ]
+              }
+            },
+            {
+              "id": "Lotte",
+              "name":{
+                "value": "Lotte",
+                "synonyms": [
+                  "Lotte"
+                ]
+              }
+            },
+            {
+              "id": "Ruben",
+              "name":{
+                "value": "Ruben",
+                "synonyms": [
+                  "Ruben"
+                ]
+              }
+            },
+            {
+              "id": "Ewa",
+              "name":{
+                "value": "Ewa",
+                "synonyms": [
+                  "Ewa"
+                ]
+              }
+            },
+            {
+              "id": "Jacek",
+              "name":{
+                "value": "Jacek",
+                "synonyms": [
+                  "Jacek"
+                ]
+              }
+            },
+            {
+              "id": "Jan",
+              "name":{
+                "value": "Jan",
+                "synonyms": [
+                  "Jan"
+                ]
+              }
+            },
+            {
+              "id": "Maja",
+              "name":{
+                "value": "Maja",
+                "synonyms": [
+                  "Maja"
+                ]
+              }
+            },
+            {
+              "id": "Ricardo",
+              "name":{
+                "value": "Ricardo",
+                "synonyms": [
+                  "Ricardo"
+                ]
+              }
+            },
+            {
+              "id": "Vitoria",
+              "name":{
+                "value": "Vitoria",
+                "synonyms": [
+                  "Vitoria"
+                ]
+              }
+            },
+            {
+              "id": "Cristiano",
+              "name":{
+                "value": "Cristiano",
+                "synonyms": [
+                  "Cristiano"
+                ]
+              }
+            },
+            {
+              "id": "Ines",
+              "name":{
+                "value": "Ines",
+                "synonyms": [
+                  "Ines"
+                ]
+              }
+            },
+            {
+              "id": "Carmen",
+              "name":{
+                "value": "Carmen",
+                "synonyms": [
+                  "Carmen"
+                ]
+              }
+            },
+            {
+              "id": "Maxim",
+              "name":{
+                "value": "Maxim",
+                "synonyms": [
+                  "Maxim"
+                ]
+              }
+            },
+            {
+              "id": "Tatyana",
+              "name":{
+                "value": "Tatyana",
+                "synonyms": [
+                  "Tatyana"
+                ]
+              }
+            },
+            {
+              "id": "Astrid",
+              "name":{
+                "value": "Astrid",
+                "synonyms": [
+                  "Astrid"
+                ]
+              }
+            },
+            {
+              "id": "Filiz",
+              "name":{
+                "value": "Filiz",
+                "synonyms": [
+                  "Filiz"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "TopicSlot",
+          "values": [
+            {
+              "id": "10-min-stories",
+              "name": {
+                "value": "10 Min Stories",
+                "synonyms": [
+                  "10 minutes stories",
+                  "10 minutes"
+                ]
+              }
+            },
+            {
+              "id": "15-min-stories",
+              "name": {
+                "value": "15 Min Stories",
+                "synonyms": [
+                  "15 minutes",
+                  "15 minutes stories"
+                ]
+              }
+            },
+            {
+              "id": "20-mins",
+              "name": {
+                "value": "20 Mins+",
+                "synonyms": [
+                  "20 minutes",
+                  "20 minutes or more",
+                  "20 minutes stories"
+                ]
+              }
+            },
+            {
+              "id": "5-min-stories",
+              "name": {
+                "value": "5 Min Stories",
+                "synonyms": [
+                  "5 minutes",
+                  "5 minutes stories"
+                ]
+              }
+            },
+            {
+              "id": "adventures",
+              "name": {
+                "value": "Adventures",
+                "synonyms": [
+                  "Adventures",
+                  "Adventures' stories"
+                ]
+              }
+            },
+            {
+              "id": "african-stories",
+              "name": {
+                "value": "African Stories",
+                "synonyms": [
+                  "African Stories",
+                  "African"
+                ]
+              }
+            },
+            {
+              "id": "age0-3",
+              "name": {
+                "value": "Age 0-3",
+                "synonyms": [
+                  "Age from 0 to 3",
+                  "From 0 to 3"
+                ]
+              }
+            },
+            {
+              "id": "age4-6",
+              "name": {
+                "value": "Age 4-6",
+                "synonyms": [
+                  "From 4 to 6",
+                  "Age from 4 to 6"
+                ]
+              }
+            },
+            {
+              "id": "age7-12",
+              "name": {
+                "value": "Age 7-12",
+                "synonyms": [
+                  "From 7 to 12",
+                  "Age from 7 to 12"
+                ]
+              }
+            },
+            {
+              "id": "alphabet",
+              "name": {
+                "value": "Alphabet",
+                "synonyms": [
+                  "Alphabet",
+                  "Alphabet Stories"
+                ]
+              }
+            },
+            {
+              "id": "animals",
+              "name": {
+                "value": "Animals",
+                "synonyms": [
+                  "Animals",
+                  "Animals Stories"
+                ]
+              }
+            },
+            {
+              "id": "arabic-stories",
+              "name": {
+                "value": "Arabic Stories",
+                "synonyms": [
+                  "Arabic Stories",
+                  "Arabic"
+                ]
+              }
+            },
+            {
+              "id": "art",
+              "name": {
+                "value": "Art",
+                "synonyms": [
+                  "Art Stories",
+                  "Art"
+                ]
+              }
+            },
+            {
+              "id": "australian-poems",
+              "name": {
+                "value": "Australian poems",
+                "synonyms": [
+                  "Australian",
+                  "Australian poems"
+                ]
+              }
+            },
+            {
+              "id": "bathtime",
+              "name": {
+                "value": "Bathtime",
+                "synonyms": [
+                  "Bathtime",
+                  "Bathtime Stories"
+                ]
+              }
+            },
+            {
+              "id": "bedtime",
+              "name": {
+                "value": "Bedtime",
+                "synonyms": [
+                  "Bedtime",
+                  "Bedtime stories"
+                ]
+              }
+            },
+            {
+              "id": "celtic-stories",
+              "name": {
+                "value": "Celtic Stories",
+                "synonyms": [
+                  "Celtic Stories",
+                  "Celtic"
+                ]
+              }
+            },
+            {
+              "id": "chinese-stories",
+              "name": {
+                "value": "Chinese Stories",
+                "synonyms": [
+                  "Chinese",
+                  "Chinese Stories"
+                ]
+              }
+            },
+            {
+              "id": "christmas",
+              "name": {
+                "value": "Christmas",
+                "synonyms": [
+                  "Christmas",
+                  "Christmas Stories"
+                ]
+              }
+            },
+            {
+              "id": "circus",
+              "name": {
+                "value": "Circus",
+                "synonyms": [
+                  "Circus",
+                  "Circus Stories"
+                ]
+              }
+            },
+            {
+              "id": "comic-books",
+              "name": {
+                "value": "Comic Books",
+                "synonyms": [
+                  "Comic Books",
+                  "Comic"
+                ]
+              }
+            },
+            {
+              "id": "cooking",
+              "name": {
+                "value": "Cooking",
+                "synonyms": [
+                  "Cooking",
+                  "Cooking Stories"
+                ]
+              }
+            },
+            {
+              "id": "dancers",
+              "name": {
+                "value": "Dancers",
+                "synonyms": [
+                  "Dancers",
+                  "Dancers Stories"
+                ]
+              }
+            },
+            {
+              "id": "dinosaurs",
+              "name": {
+                "value": "Dinosaurs",
+                "synonyms": [
+                  "Dinosaurs",
+                  "Dinosaurs Stories"
+                ]
+              }
+            },
+            {
+              "id": "dolls",
+              "name": {
+                "value": "Dolls",
+                "synonyms": [
+                  "Dolls",
+                  "Dolls Stories"
+                ]
+              }
+            },
+            {
+              "id": "dragons",
+              "name": {
+                "value": "Dragons",
+                "synonyms": [
+                  "Dragons",
+                  "Dragons Stories"
+                ]
+              }
+            },
+            {
+              "id": "early-readers",
+              "name": {
+                "value": "Early Readers",
+                "synonyms": [
+                  "Early Readers",
+                  "Early Readers Stories"
+                ]
+              }
+            },
+            {
+              "id": "fables",
+              "name": {
+                "value": "Fables",
+                "synonyms": [
+                  "Fables"
+                ]
+              }
+            },
+            {
+              "id": "fairies",
+              "name": {
+                "value": "Fairies",
+                "synonyms": [
+                  "Fairies",
+                  "Fairies Stories"
+                ]
+              }
+            },
+            {
+              "id": "fairy-tales",
+              "name": {
+                "value": "Fairy Tales",
+                "synonyms": [
+                  "Fairy Tales",
+                  "Fairy Tales Stories"
+                ]
+              }
+            },
+            {
+              "id": "family",
+              "name": {
+                "value": "Family",
+                "synonyms": [
+                  "Family",
+                  "Family Stories"
+                ]
+              }
+            },
+            {
+              "id": "friends",
+              "name": {
+                "value": "Friends",
+                "synonyms": [
+                  "Friends",
+                  "Friends Stories"
+                ]
+              }
+            },
+            {
+              "id": "funny",
+              "name": {
+                "value": "Funny",
+                "synonyms": [
+                  "Funny",
+                  "Funny Stories"
+                ]
+              }
+            },
+            {
+              "id": "gardens",
+              "name": {
+                "value": "Gardens",
+                "synonyms": [
+                  "Gardens",
+                  "Gardens Stories"
+                ]
+              }
+            },
+            {
+              "id": "ghosts",
+              "name": {
+                "value": "Ghosts",
+                "synonyms": [
+                  "Ghosts",
+                  "Ghosts Stories"
+                ]
+              }
+            },
+            {
+              "id": "grandparents",
+              "name": {
+                "value": "Grandparents",
+                "synonyms": [
+                  "Grandparents",
+                  "Grandparents Stories"
+                ]
+              }
+            },
+            {
+              "id": "grid-category",
+              "name": {
+                "value": "Grid Category",
+                "synonyms": [
+                  "Grid Category",
+                  "Grid Category Stories"
+                ]
+              }
+            },
+            {
+              "id": "heroes",
+              "name": {
+                "value": "Heroes",
+                "synonyms": [
+                  "Heroes",
+                  "Heroes Stories"
+                ]
+              }
+            },
+            {
+              "id": "indian-stories",
+              "name": {
+                "value": "Indian Stories",
+                "synonyms": [
+                  "Indian Stories",
+                  "Indian"
+                ]
+              }
+            },
+            {
+              "id": "japanese-stories",
+              "name": {
+                "value": "Japanese Stories",
+                "synonyms": [
+                  "Japanese Stories",
+                  "Japanese"
+                ]
+              }
+            },
+            {
+              "id": "korean-stories",
+              "name": {
+                "value": "Korean Stories",
+                "synonyms": [
+                  "Korean",
+                  "Korean Stories"
+                ]
+              }
+            },
+            {
+              "id": "length",
+              "name": {
+                "value": "Length",
+                "synonyms": [
+                  "Length Stories",
+                  "Length"
+                ]
+              }
+            },
+            {
+              "id": "limericks",
+              "name": {
+                "value": "Limericks",
+                "synonyms": [
+                  "Limericks",
+                  "Limericks Stories"
+                ]
+              }
+            },
+            {
+              "id": "love",
+              "name": {
+                "value": "Love",
+                "synonyms": [
+                  "Love",
+                  "Love Stories"
+                ]
+              }
+            },
+            {
+              "id": "magic",
+              "name": {
+                "value": "Magic",
+                "synonyms": [
+                  "Magic",
+                  "Magic Stories"
+                ]
+              }
+            },
+            {
+              "id": "monsters",
+              "name": {
+                "value": "Monsters",
+                "synonyms": [
+                  "Monsters",
+                  "Monsters Stories"
+                ]
+              }
+            },
+            {
+              "id": "morals",
+              "name": {
+                "value": "Morals",
+                "synonyms": [
+                  "Morals",
+                  "Morals Stories"
+                ]
+              }
+            },
+            {
+              "id": "mysteries",
+              "name": {
+                "value": "Mysteries",
+                "synonyms": [
+                  "Mysteries",
+                  "Mysteries Stories"
+                ]
+              }
+            },
+            {
+              "id": "myths",
+              "name": {
+                "value": "Myths",
+                "synonyms": [
+                  "Myths"
+                ]
+              }
+            },
+            {
+              "id": "native-american",
+              "name": {
+                "value": "Native American",
+                "synonyms": [
+                  "native American",
+                  "Native American Stories"
+                ]
+              }
+            },
+            {
+              "id": "no-words",
+              "name": {
+                "value": "No-Words Stories",
+                "synonyms": [
+                  "Non-Words Stories",
+                  "Non-Stories"
+                ]
+              }
+            },
+            {
+              "id": "non-fiction",
+              "name": {
+                "value": "Non-Fiction",
+                "synonyms": [
+                  "Non-Fiction",
+                  "Non-Fiction Stories"
+                ]
+              }
+            },
+            {
+              "id": "nordic-stories",
+              "name": {
+                "value": "Nordic Stories",
+                "synonyms": [
+                  "Nordic Stories",
+                  "Nordic"
+                ]
+              }
+            },
+            {
+              "id": "numbers",
+              "name": {
+                "value": "Numbers",
+                "synonyms": [
+                  "Numbers",
+                  "Numbers Stories"
+                ]
+              }
+            },
+            {
+              "id": "picture-books",
+              "name": {
+                "value": "Picture Books",
+                "synonyms": [
+                  "Picture Books",
+                  "Picture Books Stories",
+                  "Picture"
+                ]
+              }
+            },
+            {
+              "id": "pirates",
+              "name": {
+                "value": "Pirates",
+                "synonyms": [
+                  "Pirates",
+                  "Pirates Stories"
+                ]
+              }
+            },
+            {
+              "id": "poems-for-kids",
+              "name": {
+                "value": "Poems for kids",
+                "synonyms": [
+                  "Poems for kids",
+                  "Poems"
+                ]
+              }
+            },
+            {
+              "id": "prince-princesses",
+              "name": {
+                "value": "Princes and Princesses",
+                "synonyms": [
+                  "Princes and Princesses",
+                  "Princes and Princesses Stories",
+                  "Princes",
+                  "Princess",
+                  "Prince Stories",
+                  "Princess Stories"
+                ]
+              }
+            },
+            {
+              "id": "sad",
+              "name": {
+                "value": "Sad",
+                "synonyms": [
+                  "Sad",
+                  "Sad Stories"
+                ]
+              }
+            },
+            {
+              "id": "scary",
+              "name": {
+                "value": "Scary",
+                "synonyms": [
+                  "Scary",
+                  "Scary Stories"
+                ]
+              }
+            },
+            {
+              "id": "school",
+              "name": {
+                "value": "School",
+                "synonyms": [
+                  "School",
+                  "School Stories"
+                ]
+              }
+            },
+            {
+              "id": "seasons",
+              "name": {
+                "value": "Seasons",
+                "synonyms": [
+                  "Seasons",
+                  "Seasons Stories"
+                ]
+              }
+            },
+            {
+              "id": "siblings",
+              "name": {
+                "value": "Siblings",
+                "synonyms": [
+                  "Siblings",
+                  "Siblings Stories"
+                ]
+              }
+            },
+            {
+              "id": "space",
+              "name": {
+                "value": "Space",
+                "synonyms": [
+                  "Space",
+                  "Space Stories"
+                ]
+              }
+            },
+            {
+              "id": "toys",
+              "name": {
+                "value": "Toys",
+                "synonyms": [
+                  "Toys",
+                  "Toys Stories"
+                ]
+              }
+            },
+            {
+              "id": "trains",
+              "name": {
+                "value": "Trains",
+                "synonyms": [
+                  "Trains",
+                  "Trains Stories"
+                ]
+              }
+            },
+            {
+              "id": "uncategorized",
+              "name": {
+                "value": "Uncategorized",
+                "synonyms": [
+                  "Uncategorized",
+                  "Uncategorized Stories"
+                ]
+              }
+            },
+            {
+              "id": "vintage-stories",
+              "name": {
+                "value": "Vintage Stories",
+                "synonyms": [
+                  "Vintage Stories",
+                  "Vintage"
+                ]
+              }
+            },
+            {
+              "id": "witches",
+              "name": {
+                "value": "Witches",
+                "synonyms": [
+                  "Witches",
+                  "Witches Stories"
+                ]
+              }
+            },
+            {
+              "id": "one",
+              "name": {
+                "value": "One",
+                "synonyms": [
+                  "One",
+                  "One years old"
+                ]
+              }
+            },
+            {
+              "id": "two",
+              "name": {
+                "value": "Two",
+                "synonyms": [
+                  "two",
+                  "two years old"
+                ]
+              }
+            },
+            {
+              "id": "three",
+              "name": {
+                "value": "Three",
+                "synonyms": [
+                  "three",
+                  "three years old"
+                ]
+              }
+            },
+            {
+              "id": "four",
+              "name": {
+                "value": "Four",
+                "synonyms": [
+                  "four",
+                  "four years old"
+                ]
+              }
+            },
+            {
+              "id": "five",
+              "name": {
+                "value": "Five",
+                "synonyms": [
+                  "five",
+                  "five years old"
+                ]
+              }
+            },
+            {
+              "id": "six",
+              "name": {
+                "value": "Six",
+                "synonyms": [
+                  "six",
+                  "six years old"
+                ]
+              }
+            },
+            {
+              "id": "seven",
+              "name": {
+                "value": "Seven",
+                "synonyms": [
+                  "seven",
+                  "seven years old"
+                ]
+              }
+            },
+            {
+              "id": "eight",
+              "name": {
+                "value": "Eight",
+                "synonyms": [
+                  "eight",
+                  "eight years old"
+                ]
+              }
+            },
+            {
+              "id": "nine",
+              "name": {
+                "value": "Nine",
+                "synonyms": [
+                  "nine",
+                  "nine years old"
+                ]
+              }
+            },
+            {
+              "id": "ten",
+              "name": {
+                "value": "Ten",
+                "synonyms": [
+                  "ten",
+                  "ten years old"
+                ]
+              }
+            },
+            {
+              "id": "eleven",
+              "name": {
+                "value": "Eleven",
+                "synonyms": [
+                  "eleven",
+                  "eleven years old"
+                ]
+              }
+            },
+            {
+              "id": "twelve",
+              "name": {
+                "value": "Twelve",
+                "synonyms": [
+                  "twelve",
+                  "twelve years old"
+                ]
+              }
+            },
+            {
+              "id": "thirteen",
+              "name": {
+                "value": "Thirteen",
+                "synonyms": [
+                  "thirteen",
+                  "thirteen years old"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "PlayStory",
+          "samples": [
+            "stories",
+            "read stories",
+            "I want to hear a story ",
+            "read a story",
+            "I want to read the {sort} stories about {tag} by {author}",
+            "read {sort} stories about {tag}",
+            "give me the {sort} {topic} stories",
+            "{sort} stories",
+            "read the {sort} story",
+            "{date} stories",
+            "read {date} stories",
+            "{topic} stories",
+            "show me stories about {tag} on {topic}",
+            "read me {date} the {sort} story about {tag} on {topic} by {author}",
+            "suggest me a {topic}",
+            "read me a story for my {topic} years old",
+            "read me a story from {topic}",
+            "read me a story by {author} from {topic}",
+            "story of {tag} by {author}",
+            "show me stories for my {topic} son",
+            "show me stories for my {topic} daughter"
+          ],
+          "slots": [
+            {
+              "name": "topic",
+              "type": "TopicSlot"
+            },
+            {
+              "name": "tag",
+              "type": "TagSlot"
+            },
+            {
+              "name": "date",
+              "type": "AMAZON.DATE"
+            },
+            {
+              "name": "author",
+              "type": "AMAZON.Author"
+            },
+            {
+              "name": "sort",
+              "type": "SortSlot"
+            }
+          ]
+        }
+      ],
+      "invocationName": "storyberries tales"
+    }
   }
 }
