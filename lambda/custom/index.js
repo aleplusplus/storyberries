@@ -39,11 +39,11 @@ webhook.post('/webhook', function(req, res) {
 const handlers = {
 
     'LAUNCH': function() {
-        app.tell('Hello World!');
+        app.toIntent('PlayAudio');
     },
 
     'HelpIntent': function() {
-        app.tell('HelpIntent');
+        app.toIntent('HelpIntent');
     },
 
     'Unhandled': function() {

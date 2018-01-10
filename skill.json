@@ -5,12 +5,20 @@
         "en-US": {
           "summary": "Sample Short Description",
           "examplePhrases": [
-            "Alexa open hello world",
-            "Alexa tell hello world I am Jeff",
-            "Alexa tell hello world my name is Peter"
+            "Alexa open storyberries tales",
+            "Alexa tell storyberries tales play stories",
+            "Alexa tell storyberries tales play stories about love"
           ],
-          "name": "Storyberries Tales",
-          "description": "Sample Full Description"
+          "keywords": [
+            "story",
+            "tales",
+            "teller",
+            "kids"
+          ],
+          "name": "Storyberries",
+          "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.9d443a73-2646-4a19-968a-28da1d9064ea/images/eyJkIjoiUXVGakR6MXJTemtHSFVLRE4zVG14Ulhqd1hldWI4T1U5dFNBQ1JPQXhFcUwwVjVKdXhOK2VwSEFPQndaQTF5RjFBS1FpQmh0ZUxxNVBMUTNWWFQwYzIvNTFsWW9wWElMdE5tRUVnVndwd1htTVVuSVFtaGx6eXdQYW1uVFl5bW4iLCJpdiI6Ii9STXg0QWtrOGQ5VnoxdTBIVjM3dHc9PSIsInYiOjF9",
+          "description": "Sample Full Description",
+          "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.9d443a73-2646-4a19-968a-28da1d9064ea/images/eyJkIjoiVkhOd20yZnYrS3N5UHRTRTFOSkZlMGFPRUJZWU9PU0VPeGd0UlloVHdLMXpZemxjZFFqdm5mQ1pBOUhYQ0dTMFI4R3FrZ3JSbHZrMjZzMFdycXJGeENzNWMyb2M5WVFneExoVTJQM0tMVkYrZnlicTlPOVVrem5FNjdxM1NaWDE0ZnM5eHlaOUc0UTcxbkpLWlYvc0FRPT0iLCJpdiI6IkF3RVR6SzdNRjE3OXg3TlJ0RWNnenc9PSIsInYiOjF9"
         }
       },
       "isAvailableWorldwide": true,
@@ -21,7 +29,8 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "sourceDir": "lambda/custom"
+          "sslCertificateType": "Wildcard",
+          "uri": "https://1d5ddca3.ngrok.io/webhook"
         },
         "interfaces": [
           {
@@ -30,6 +39,13 @@
         ]
       }
     },
-    "manifestVersion": "1.0"
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
   }
 }

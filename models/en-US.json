@@ -1,9 +1,91 @@
 {
   "interactionModel": {
     "languageModel": {
+      "invocationName": "story berries",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "PlayStory",
+          "slots": [
+            {
+              "name": "topic",
+              "type": "TopicSlot"
+            },
+            {
+              "name": "tag",
+              "type": "TagSlot"
+            },
+            {
+              "name": "date",
+              "type": "AMAZON.DATE"
+            },
+            {
+              "name": "author",
+              "type": "AMAZON.Author"
+            },
+            {
+              "name": "sort",
+              "type": "SortSlot"
+            }
+          ],
+          "samples": [
+            "stories",
+            "read stories",
+            "I want to hear a story ",
+            "read a story",
+            "I want to read the {sort} stories about {tag} by {author}",
+            "read {sort} stories about {tag}",
+            "give me the {sort} {topic} stories",
+            "{sort} stories",
+            "read the {sort} story",
+            "{date} stories",
+            "read {date} stories",
+            "{topic} stories",
+            "show me stories about {tag} on {topic}",
+            "read me {date} the {sort} story about {tag} on {topic} by {author}",
+            "suggest me a {topic}",
+            "read me a story for my {topic} years old",
+            "read me a story from {topic}",
+            "read me a story by {author} from {topic}",
+            "story of {tag} by {author}",
+            "show me stories for my {topic} son",
+            "show me stories for my {topic} daughter"
+          ]
+        }
+      ],
       "types": [
         {
-          "name": "SortSlot",
           "values": [
             {
               "id": "latest",
@@ -39,10 +121,10 @@
                 ]
               }
             }
-          ]
+          ],
+          "name": "SortSlot"
         },
         {
-          "name": "TagSlot",
           "values": [
             {
               "id": "ambition",
@@ -629,10 +711,10 @@
                 ]
               }
             }
-          ]
+          ],
+          "name": "TagSlot"
         },
         {
-          "name": "TellerSlot",
           "values": [
             {
               "id": "Geraint",
@@ -654,7 +736,7 @@
             },
             {
               "id": "Mads",
-              "name":{
+              "name": {
                 "value": "Mads",
                 "synonyms": [
                   "Mads"
@@ -663,7 +745,7 @@
             },
             {
               "id": "Naja",
-              "name":{
+              "name": {
                 "value": "Naja",
                 "synonyms": [
                   "Naja"
@@ -672,7 +754,7 @@
             },
             {
               "id": "Hans",
-              "name":{
+              "name": {
                 "value": "Hans",
                 "synonyms": [
                   "Hans"
@@ -681,7 +763,7 @@
             },
             {
               "id": "Marlene",
-              "name":{
+              "name": {
                 "value": "Marlene",
                 "synonyms": [
                   "Marlene"
@@ -690,7 +772,7 @@
             },
             {
               "id": "Nicole",
-              "name":{
+              "name": {
                 "value": "Nicole",
                 "synonyms": [
                   "Nicole"
@@ -699,7 +781,7 @@
             },
             {
               "id": "Russell",
-              "name":{
+              "name": {
                 "value": "Russell",
                 "synonyms": [
                   "Russell"
@@ -708,7 +790,7 @@
             },
             {
               "id": "Amy",
-              "name":{
+              "name": {
                 "value": "Amy",
                 "synonyms": [
                   "Amy"
@@ -717,7 +799,7 @@
             },
             {
               "id": "Brian",
-              "name":{
+              "name": {
                 "value": "Brian",
                 "synonyms": [
                   "Brian"
@@ -726,7 +808,7 @@
             },
             {
               "id": "Emma",
-              "name":{
+              "name": {
                 "value": "Emma",
                 "synonyms": [
                   "Emma"
@@ -735,7 +817,7 @@
             },
             {
               "id": "Raveena",
-              "name":{
+              "name": {
                 "value": "Raveena",
                 "synonyms": [
                   "Raveena"
@@ -744,7 +826,7 @@
             },
             {
               "id": "Ivy",
-              "name":{
+              "name": {
                 "value": "Ivy",
                 "synonyms": [
                   "Ivy"
@@ -753,7 +835,7 @@
             },
             {
               "id": "Joanna",
-              "name":{
+              "name": {
                 "value": "Joanna",
                 "synonyms": [
                   "Joanna"
@@ -762,7 +844,7 @@
             },
             {
               "id": "Joey",
-              "name":{
+              "name": {
                 "value": "Joey",
                 "synonyms": [
                   "Joey"
@@ -771,7 +853,7 @@
             },
             {
               "id": "Justin",
-              "name":{
+              "name": {
                 "value": "Justin",
                 "synonyms": [
                   "Justin"
@@ -780,7 +862,7 @@
             },
             {
               "id": "Kendra",
-              "name":{
+              "name": {
                 "value": "Kendra",
                 "synonyms": [
                   "Kendra"
@@ -789,7 +871,7 @@
             },
             {
               "id": "Kimberly",
-              "name":{
+              "name": {
                 "value": "Kimberly",
                 "synonyms": [
                   "Kimberly"
@@ -798,7 +880,7 @@
             },
             {
               "id": "Salli",
-              "name":{
+              "name": {
                 "value": "Salli",
                 "synonyms": [
                   "Salli"
@@ -807,7 +889,7 @@
             },
             {
               "id": "Conchita",
-              "name":{
+              "name": {
                 "value": "Conchita",
                 "synonyms": [
                   "Conchita"
@@ -816,7 +898,7 @@
             },
             {
               "id": "Enrique",
-              "name":{
+              "name": {
                 "value": "Enrique",
                 "synonyms": [
                   "Enrique"
@@ -825,7 +907,7 @@
             },
             {
               "id": "Miguel",
-              "name":{
+              "name": {
                 "value": "Miguel",
                 "synonyms": [
                   "Miguel"
@@ -834,7 +916,7 @@
             },
             {
               "id": "Penelope",
-              "name":{
+              "name": {
                 "value": "Penelope",
                 "synonyms": [
                   "Penelope"
@@ -843,7 +925,7 @@
             },
             {
               "id": "Chantal",
-              "name":{
+              "name": {
                 "value": "Chantal",
                 "synonyms": [
                   "Chantal"
@@ -852,7 +934,7 @@
             },
             {
               "id": "Celine",
-              "name":{
+              "name": {
                 "value": "Celine",
                 "synonyms": [
                   "Celine"
@@ -861,7 +943,7 @@
             },
             {
               "id": "Mathieu",
-              "name":{
+              "name": {
                 "value": "Mathieu",
                 "synonyms": [
                   "Mathieu"
@@ -870,7 +952,7 @@
             },
             {
               "id": "Dora",
-              "name":{
+              "name": {
                 "value": "Dora",
                 "synonyms": [
                   "Dora"
@@ -879,7 +961,7 @@
             },
             {
               "id": "Karl",
-              "name":{
+              "name": {
                 "value": "Karl",
                 "synonyms": [
                   "Karl"
@@ -888,7 +970,7 @@
             },
             {
               "id": "Carla",
-              "name":{
+              "name": {
                 "value": "Carla",
                 "synonyms": [
                   "Carla"
@@ -897,7 +979,7 @@
             },
             {
               "id": "Giorgio",
-              "name":{
+              "name": {
                 "value": "Giorgio",
                 "synonyms": [
                   "Giorgio"
@@ -906,7 +988,7 @@
             },
             {
               "id": "Mizuki",
-              "name":{
+              "name": {
                 "value": "Mizuki",
                 "synonyms": [
                   "Mizuki"
@@ -915,7 +997,7 @@
             },
             {
               "id": "Liv",
-              "name":{
+              "name": {
                 "value": "Liv",
                 "synonyms": [
                   "Liv"
@@ -924,7 +1006,7 @@
             },
             {
               "id": "Lotte",
-              "name":{
+              "name": {
                 "value": "Lotte",
                 "synonyms": [
                   "Lotte"
@@ -933,7 +1015,7 @@
             },
             {
               "id": "Ruben",
-              "name":{
+              "name": {
                 "value": "Ruben",
                 "synonyms": [
                   "Ruben"
@@ -942,7 +1024,7 @@
             },
             {
               "id": "Ewa",
-              "name":{
+              "name": {
                 "value": "Ewa",
                 "synonyms": [
                   "Ewa"
@@ -951,7 +1033,7 @@
             },
             {
               "id": "Jacek",
-              "name":{
+              "name": {
                 "value": "Jacek",
                 "synonyms": [
                   "Jacek"
@@ -960,7 +1042,7 @@
             },
             {
               "id": "Jan",
-              "name":{
+              "name": {
                 "value": "Jan",
                 "synonyms": [
                   "Jan"
@@ -969,7 +1051,7 @@
             },
             {
               "id": "Maja",
-              "name":{
+              "name": {
                 "value": "Maja",
                 "synonyms": [
                   "Maja"
@@ -978,7 +1060,7 @@
             },
             {
               "id": "Ricardo",
-              "name":{
+              "name": {
                 "value": "Ricardo",
                 "synonyms": [
                   "Ricardo"
@@ -987,7 +1069,7 @@
             },
             {
               "id": "Vitoria",
-              "name":{
+              "name": {
                 "value": "Vitoria",
                 "synonyms": [
                   "Vitoria"
@@ -996,7 +1078,7 @@
             },
             {
               "id": "Cristiano",
-              "name":{
+              "name": {
                 "value": "Cristiano",
                 "synonyms": [
                   "Cristiano"
@@ -1005,7 +1087,7 @@
             },
             {
               "id": "Ines",
-              "name":{
+              "name": {
                 "value": "Ines",
                 "synonyms": [
                   "Ines"
@@ -1014,7 +1096,7 @@
             },
             {
               "id": "Carmen",
-              "name":{
+              "name": {
                 "value": "Carmen",
                 "synonyms": [
                   "Carmen"
@@ -1023,7 +1105,7 @@
             },
             {
               "id": "Maxim",
-              "name":{
+              "name": {
                 "value": "Maxim",
                 "synonyms": [
                   "Maxim"
@@ -1032,7 +1114,7 @@
             },
             {
               "id": "Tatyana",
-              "name":{
+              "name": {
                 "value": "Tatyana",
                 "synonyms": [
                   "Tatyana"
@@ -1041,7 +1123,7 @@
             },
             {
               "id": "Astrid",
-              "name":{
+              "name": {
                 "value": "Astrid",
                 "synonyms": [
                   "Astrid"
@@ -1050,17 +1132,17 @@
             },
             {
               "id": "Filiz",
-              "name":{
+              "name": {
                 "value": "Filiz",
                 "synonyms": [
                   "Filiz"
                 ]
               }
             }
-          ]
+          ],
+          "name": "TellerSlot"
         },
         {
-          "name": "TopicSlot",
           "values": [
             {
               "id": "10-min-stories",
@@ -1886,92 +1968,10 @@
                 ]
               }
             }
-          ]
-        }
-      ],
-      "intents": [
-        {
-          "name": "AMAZON.CancelIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.HelpIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.NextIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.PauseIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.PreviousIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.RepeatIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.ResumeIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.StopIntent",
-          "samples": []
-        },
-        {
-          "name": "PlayStory",
-          "samples": [
-            "stories",
-            "read stories",
-            "I want to hear a story ",
-            "read a story",
-            "I want to read the {sort} stories about {tag} by {author}",
-            "read {sort} stories about {tag}",
-            "give me the {sort} {topic} stories",
-            "{sort} stories",
-            "read the {sort} story",
-            "{date} stories",
-            "read {date} stories",
-            "{topic} stories",
-            "show me stories about {tag} on {topic}",
-            "read me {date} the {sort} story about {tag} on {topic} by {author}",
-            "suggest me a {topic}",
-            "read me a story for my {topic} years old",
-            "read me a story from {topic}",
-            "read me a story by {author} from {topic}",
-            "story of {tag} by {author}",
-            "show me stories for my {topic} son",
-            "show me stories for my {topic} daughter"
           ],
-          "slots": [
-            {
-              "name": "topic",
-              "type": "TopicSlot"
-            },
-            {
-              "name": "tag",
-              "type": "TagSlot"
-            },
-            {
-              "name": "date",
-              "type": "AMAZON.DATE"
-            },
-            {
-              "name": "author",
-              "type": "AMAZON.Author"
-            },
-            {
-              "name": "sort",
-              "type": "SortSlot"
-            }
-          ]
+          "name": "TopicSlot"
         }
-      ],
-      "invocationName": "storyberries tales"
+      ]
     }
   }
 }
