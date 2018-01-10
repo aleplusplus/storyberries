@@ -4,7 +4,9 @@
   "description": "Stories for kids!",
   "main": "index.js",
   "dependencies": {
-    "jovo-framework": "<=1.0.0"
+    "aws-sdk": "^2.179.0",
+    "jovo-framework": "<=1.0.0",
+    "wpapi": "^1.1.2"
   },
   "devDependencies": {},
   "repository": {
