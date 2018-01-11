@@ -1,32 +1,34 @@
 'use strict';
 
-var Alexa = require('alexa-sdk');
+var alexa = require('alexa-sdk');
 var constants = require('./constants');
-var stateHandlers = require('./stateHandlers');
+var stateHandlers = require('./intentHandlers');
 var audioEventHandlers = require('./audioEventHandlers');
+var languageStrings = require('./strings');
 
-exports.handler = function(event, context, callback){
-    var alexa = Alexa.handler(event, context);
-    alexa.appId = constants.appId;
-    alexa.dynamoDBTableName = constants.dynamoDBTableName;
-    alexa.registerHandlers(
-        stateHandlers.startModeIntentHandlers,
-        stateHandlers.playModeIntentHandlers,
-        stateHandlers.remoteControllerHandlers,
-        stateHandlers.resumeDecisionModeIntentHandlers,
-        audioEventHandlers
-    );
+exports.handler = (event, context, callback) => {
 
     if (constants.debug) {
         console.log("\n" + "******************* REQUEST **********************");
         console.log("\n" + JSON.stringify(event, null, 2));
+
+        var origCallback = callback;
+        callback = function (error, response) {
+            console.log("\n" + "******************* RESPONSE  **********************");
+            console.log("\n" + JSON.stringify(response, null, 2));
+            return origCallback(error, response);
+        }
     }
 
-    var audioPlayerInterface = ((((event.context || {}).System || {}).device || {}).supportedInterfaces || {}).AudioPlayer;
-    if (audioPlayerInterface === undefined) {
-        alexa.emit(':tell', 'Sorry, this skill is not supported on this device');
-    }
-    else {
-        alexa.execute();
-    }
+    var skill = alexa.handler(event, context, callback);
+
+    skill.appId = constants.appId;
+    skill.resources = languageStrings;
+    skill.debug = constants.debug;
+    skill.registerHandlers(
+        stateHandlers,
+        audioEventHandlers
+    );
+
+    skill.execute();
 };

@@ -36,7 +36,7 @@
           "samples": []
         },
         {
-          "name": "PlayStory",
+          "name": "PlayAudio",
           "slots": [
             {
               "name": "topic",
@@ -60,7 +60,6 @@
             }
           ],
           "samples": [
-            "stories",
             "read stories",
             "I want to hear a story ",
             "read a story",
